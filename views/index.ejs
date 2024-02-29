@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css//animated.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+  <link rel="icon" href="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923275/hacker_gttwwp.webp">
+
+  <script src="https://kit.fontawesome.com/aee3b404c0.js" crossorigin="anonymous"></script>
+    
+     
+
+</head>
+<body>
+
+<!-- navbar-section -->
+<section class="desktop-navbar-section">
+  <nav id="navbar-example2" class="navbar custom-nav  px-3 mb-3">
+<div class="container">
+  <a class="navbar-brand logo-text" href="#">SANJAY</a>
+ 
+
+    <ul class="nav nav-pills " id="mainmenu">
+      <li class="nav-item">
+        <a class="nav-link active " href="#home"><i class="fas fa-home me-2"></i> HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about"> <i class="fas fa-user me-2"></i>ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#service"><i class="fas fa-briefcase me-2"></i> SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#resume"> <i class="fas fa-file-alt me-2"></i> RESUME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio"> <i class="fas fa-layer-group me-2"></i>PORTFOLIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact"><i class="fas fa-address-book me-2"></i>CONTACT</a>
+      </li>
+   
+    </ul>
+ 
+</div>
+  </nav>
+ 
+</section>
+
+<!-- navbar-section -->
+
+<!-- mobile-navbar-section -->
+<section class="mobile-navbar-section">
+
+      <nav id="navbar-example2" class="navbar custom-nav  ">
+
+
+ 
+
+    
+        <ul class="nav nav-pills " id="mainmenu">
+          <li class="nav-item d-inline-block">
+            <a class="nav-link  "href="#home"><i class="fas fa-home me-2"></i> </a>
+          </li>
+          <li class="nav-item d-inline-block">
+            <a class="nav-link" href="#about"> <i class="fas fa-user me-2"></i></a>
+          </li>
+          <li class="nav-item d-inline-block">
+            <a class="nav-link" href="#service"><i class="fas fa-briefcase me-2"></i> </a>
+          </li>
+          <li class="nav-item d-inline-block">
+            <a class="nav-link" href="#resume"> <i class="fas fa-file-alt me-2"></i> </a>
+          </li>
+          <li class="nav-item d-inline-block">
+            <a class="nav-link" href="#portfolio"> <i class="fas fa-layer-group me-2"></i></a>
+          </li>
+          <li class="nav-item d-inline-block">
+            <a class="nav-link" href="#contact"><i class="fas fa-address-book "></i></a>
+          </li>
+       
+        </ul>
+     
+   
+  
+    </nav>
+ 
+</section>
+<!--end-mobile-navbar-section -->
+
+<!-- main-section    -->
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <!-- profile-section -->
+    <section class="home-section " id="home">
+      <div class="container mt-5" >
+          <div class="row justify-content-center main-content align-items-center">
+              <div class="col-lg-4 col-md-4 image-section">
+              <img src="./assets/img/Sanjay_singh.webp" alt="profile" class="img-fluid home-img wow zoomInLeft">
+              </div>
+              <div class="col-lg-6 col-md-7 home-right animated-text">
+            <!-- name-of-the-author -->
+            <div class="alert alert-warning alert-dismissible fade show d-inline-block success_msg p-1" role="alert">
+                <strong><%= message%></strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+                   <h4 class="heading wow zoomInRight">Sanjay Singh</h4>
+                   <h5 >
+                      I'm a <span class="typed-text typing-demo"></span><span class="cursor">&nbsp;</span>
+
+                    </h5>
+                    <p class="mt-4 animate__bounce">I'm a Frontend Developer over 2+ years of experience. Experienced with all <br> stages of the development cycle for dynamic web projects.</p>
+
+                <ul class="list-unstyled social-icons wow fadeInDown ">
+                  <li>
+                      <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/sanjay-singh-6876aa220/"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="javascript:void(0)"> <i class="fab fa-pinterest"></i></a></li>
+                </ul>
+
+              <div class="two-buttons">
+                 <a href="#contact" class="btn text-white contact-link wow fadeInUp"><b>Contact me</b></a>
+
+                 <a href="#portfolio" class="btn text-white contact-link ms-3 wow fadeInDown"><b>My Portfolio</b></a>
+
+
+
+              </div>
+<!-- scroll-bar-button -->
+<div class="scroll-btn">
+<a href="#about" class="scroll-down-arrow smooth-scroll-down about-link"></a>
+</div>
+
+
+                  </div>
+          </div>
+      </div>
+
+  </section>
+
+
+<!-- end-portfolio-section -->
+
+  <!-- about-section -->
+  <section class="about-section " id ="about">
+<div class="container">
+<div class="row align-items-center">
+  <div class="col-lg-12">
+    <div class="common-heading about-heading">
+         <h1>About <span>Me</span></h1>
+         <span class="bg-text">About</span>
+
+    </div>
+  </div>
+
+  <!-- describe-section -->
+  <div class="col-lg-4 col-md-4">
+    <div class="about_image img_card">
+      <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923278/profile_z5cgra.webp" alt="profile" class="img-fluid profile-img">
+    </div>
+  </div>
+  <div class="col-lg-8 col-md-8 mt-5 mt-lg-0">
+   <div class="description ">
+<p class="wow slideInRight">Hi! My name is Sanjay. I am web developer, and I'm very passionate and dedicated to my work. With 2 + years experience as a freelance Frontend Developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+
+<P class="wow slideInRight"> Web Developers are build a website’s core structure using coding languages, while designers are more visually creative and user-focused. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</P>
+
+<p class="wow slideInRight">  Get the bundle and get lifetime support and one year updates. I am available for freelance work. Connect with me via my account.</p>
+<div class="download-btn">
+<a href="./assets/Cv.pdf" class="btn text-white contact-link" download><b>Download cv</b></a>
+</div>
+   </div>
+  </div>
+
+</div>
+</div>
+  </section>
+
+
+
+<!-- counter-section -->
+<section class="counter-section">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 wow fadeInLeft">
+      <div class="counter">
+         <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923225/target_jp5we5.webp" alt="target" class="img-fluid counter-icons ">
+        <h3 data-target="10 " class="count text-white mt-3">0</h3>
+     <p  class="mb-0">Project Done</p>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 wow fadeInDown mt-5 mt-md-0 mt-lg-0">
+      <div class="counter">
+          <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923221/medical-mask_emu3ce.webp" alt="happy-user" class="img-fluid  counter-icons">
+        <h3 data-target="8" class="count text-white mt-3">0</h3>
+      <p  class="mb-0">Happy Users</p>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 wow fadeInDown mt-5 mt-md-4 mt-lg-0">
+      <div class="counter">
+        <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923273/award_obtyej.webp" alt="award-img" class="img-fluid counter-icons ">
+        <h3 data-target="5" class="count text-white mt-3">0</h3>
+    <p  class="mb-0">Great Reviews</p>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-6 wow fadeInRight mt-5 mt-md-4 mt-lg-0">
+      <div class="counter">
+        <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923220/hacker_zc581v.webp" alt="support-team" class="img-fluid counter-icons">
+        <h3 data-target="5" class="count text-white mt-3">0</h3>
+        <p class="mb-0">Support Team</p>
+    </div>
+    </div>
+    </div>
+  </div>
+
+
+
+</section>
+
+
+
+
+<!-- service-section -->
+<section class="service-section" id="service">
+<div class="container">
+<div class="row">
+  <div class="col-lg-12">
+    <div class="common-heading about-heading">
+         <h1>My <span>Service</span></h1>
+         <span class="bg-text">Service</span>
+
+    </div>
+</div>
+    <div class="col-lg-4 col-md-6 wow fadeInUp ">
+      <div class="service_one">
+        <div class="card-content text-center ">
+          <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923219/code_xtejpq.webp" alt="Web-devlopement" class="img-fluid counter-icons">
+          <h5 class="text-white mt-3">Web Development</h5>
+          <p>Web development refers in general to the tasks associated with developing websites.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 wow fadeInUp mt-5 mt-lg-0 mt-md-0 col-md-6"> <div class="service_one">
+      <div class="card-content text-center">
+        <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923224/rocket_s3egqg.webp" alt="Web-devlopement" class="img-fluid counter-icons">
+        <h5 class="text-white mt-3">Fast & Optimized</h5>
+        <p>Efficiently designed websites with quick loading times, providing superior user experience and better  rankings.</p>
+
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-4  wow fadeInUp mt-5 mt-lg-0">
+      <div class="service_one">
+        <div class="card-content text-center">
+          <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923219/debugging_sek8z6.webp" alt="Web-devlopement" class="img-fluid counter-icons">
+          <h5 class="text-white mt-3">Bug Fixing</h5>
+          <p>
+            Identify, diagnose, and resolve website issues to enhance functionality, user experience, and overall performance</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+
+<!-- my-resume-section -->
+<section class="resume-section" id="resume">
+<div class="container">
+<div class="row align-items-center">
+  <div class="col-lg-12">
+    <div class="common-heading about-heading">
+         <h1>My <span>Resume</span></h1>
+         <span class="bg-text">Resume</span>
+
+    </div>
+</div>
+<div class="col-lg-6 col-md-6  wow slideInLeft">
+<div class="education">
+  <div class="resume_title">
+    <h4 class="title">Education</h4>
+  </div>
+  <div class="education-list">
+      <div class="education_item">
+        <div class="year">
+          <span>2022-2024</span>
+        </div>
+        <h4 class="university_name text-white">Chandigarh University</h4>
+        <p class="degree">Master's in Computer Application</p>
+      </div>
+  </div>
+  <div class="education-list mt-0">
+      <div class="education_item">
+        <div class="year">
+          <span>2018-2021</span>
+        </div>
+        <h4 class="university_name text-white">Kumaon University</h4>
+        <p class="degree">Bachelor's in Computer Application</p>
+      </div>
+  </div>
+  <div class="education-list mt-0">
+      <div class="education_item">
+        <div class="year">
+          <span>2016-2018</span>
+          </div>
+          <h4 class="university_name text-white">Vivekanand Vidya Mandir</h4>
+          <p class="degree">Intermediate</p>
+      </div>
+  </div>
+
+</div>
+
+
+
+</div>
+<div class="col-lg-6 col-md-6 wow slideInRight mt-5  mt-md-0 mt-lg-0">
+  <div class="education experience">
+    <div class="resume_title">
+      <h4 class="title">Experience</h4>
+    </div>
+    <div class="education-list">
+        <div class="education_item">
+          <div class="year">
+            <span>Nov 2021- August 2022</span>
+          </div>
+          <h4 class="university_name text-white">Bajaj IT Solutions</h4>
+          <p class="degree">Internship</p>
+        </div>
+    </div>
+    <div class="education-list mt-0">
+        <div class="education_item">
+          <div class="year">
+            <span>Nov 2021- August 2022</span>
+          </div>
+          <h4 class="university_name text-white">Bajaj IT Solutions</h4>
+          <p class="degree">Internship</p>
+        </div>
+    </div>
+    <div class="education-list mt-0">
+        <div class="education_item">
+          <div class="year">
+            <span>Nov 2021- August 2022</span>
+          </div>
+          <h4 class="university_name text-white">Bajaj IT Solutions</h4>
+          <p class="degree">Internship</p>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="col-lg-6  col-md-6 wow fadeInUp ">
+  <div class="coding-skills">
+    <div class="skills_title">
+      <h4 class="title text-white">Coding Skills</h4>
+    </div>
+    <div class="skills_content">
+     <div class="heading d-flex justify-content-between text-white ">
+      <h4 class="title">HTML</h4>
+      <h5 class="text-value">90%</h5>
+     </div>
+     <div class="progress_bar">
+      <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%"></div>
+      </div>
+     </div>
+    </div>
+    <!-- skill-2 -->
+    <div class="skills_content">
+      <div class="heading d-flex justify-content-between text-white ">
+       <h4 class="title">CSS</h4>
+       <h5 class="text-value">90%</h5>
+      </div>
+      <div class="progress_bar">
+       <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%"></div>
+       </div>
+      </div>
+     </div>
+
+     <!-- skills-3 -->
+     <div class="skills_content">
+      <div class="heading d-flex justify-content-between text-white ">
+       <h4 class="title">JS</h4>
+       <h5 class="text-value">80%</h5>
+      </div>
+      <div class="progress_bar">
+       <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%"></div>
+       </div>
+      </div>
+     </div>
+     <!-- skills-4 -->
+     <div class="skills_content">
+      <div class="heading d-flex justify-content-between text-white ">
+       <h4 class="title">REACT JS</h4>
+       <h5 class="text-value">85%</h5>
+      </div>
+      <div class="progress_bar">
+       <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%"></div>
+       </div>
+      </div>
+     </div>
+
+     <!-- skills-5 -->
+     <div class="skills_content">
+      <div class="heading d-flex justify-content-between text-white ">
+       <h4 class="title">C++</h4>
+       <h5 class="text-value">85%</h5>
+      </div>
+      <div class="progress_bar">
+       <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%"></div>
+       </div>
+      </div>
+     </div>
+
+      </div>
+</div>
+<div class="col-lg-6 col-md-6  wow fadeInUp">
+  <div class="coding-skills knowledge_skills">
+    <div class="skills_title">
+      <h4 class="title text-white">Knowledge</h4>
+    </div>
+    <div class="knowledge_content">
+   <p>Good Knowldege about Python </p>
+     </div>
+    
+    <div class="knowledge_content">
+   <p>Data Structure and Algorithms</p>
+     </div>
+     
+     <div class="knowledge_content">
+    <p>OOPS Concept</p>
+      </div>
+    <div class="knowledge_content">
+   <p>Problem solving and coordination skills</p>
+     </div>
+    
+    
+  
+    
+    <div class="knowledge_content">
+   <p>Familiar with Frontend libraries (React js)</p>
+     </div>
+    
+    <div class="knowledge_content">
+   <p>Database Management System</p>
+     </div>
+    
+    <div class="knowledge_content">
+   <p>Knowledge about SDLC</p>
+     </div>
+    
+    
+    
+    </div>
+    <!-- skill-2 -->
+   
+      </div>
+</div>
+</div>
+
+</section>
+
+
+<!-- my-portfolio-section -->
+<section class="portfolio_section" id="portfolio">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="common-heading about-heading portfolio">
+           <h1>My <span>Portfolio</span></h1>
+           <span class="bg-text">Portfolio</span>
+  
+      </div>
+  </div>
+
+   <div class="wrapper">
+    <div class="carousel">
+  
+    <div class="col-lg-3 col-md-6 wow fadeInDown mt-5 mt-md-0 mt-lg-0">
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923222/portfolio_2_iepjrd.webp" alt="portfolio_second" class="img-fluid">
+  
+          <div class="portfolio_overlay">
+            <div class="links">
+                  <a class="link" href="https://google-athelet.netlify.app/" target="_blank">
+              <i class="fas fa-link"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 wow fadeInDown mt-5 mt-lg-0">
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923934/portfolio_3_sasxbf.webp" alt="portfolio_first" class="img-fluid">
+  
+          <div class="portfolio_overlay">
+            <div class="links">
+                  <a class="link" href="https://royal-home.netlify.app/" target="_blank">
+              <i class="fas fa-link"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 wow fadeInRight mt-5 mt-lg-0">
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923277/portfolio_4_ndy7yu.webp" alt="portfolio_first" class="img-fluid">
+  
+          <div class="portfolio_overlay">
+            <div class="links">
+                  <a class="link" href="https://vindmw-dealer.netlify.app/" target="_blank">
+              <i class="fas fa-link"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 wow fadeInLeft">
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="https://res.cloudinary.com/dby6jcsqv/image/upload/v1705923277/portfolio_1_ppd5lu.webp" alt="portfolio_first" class="img-fluid">
+  
+          <div class="portfolio_overlay">
+            <div class="links">
+                  <a class="link" href="https://easyshop-weld.vercel.app/" target="_blank">
+              <i class="fas fa-link"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 wow fadeInLeft">
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="./assets/img/portfolio_5.webp" alt="portfolio_five" class="img-fluid">
+  
+          <div class="portfolio_overlay">
+            <div class="links">
+                  <a class="link" href="https://drbretsky.com/" target="_blank">
+              <i class="fas fa-link"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 wow fadeInLeft">
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="./assets/img/portfolio_6.webp" alt="portfolio_sixth" class="img-fluid">
+  
+          <div class="portfolio_overlay">
+            <div class="links">
+                  <a class="link" href="https://buildquick.co.uk/" target="_blank">
+              <i class="fas fa-link"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 wow fadeInLeft">
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="./assets/img/portfolio_7.png" alt="portfolio_seven" class="img-fluid">
+  
+          <div class="portfolio_overlay">
+            <div class="links">
+                  <a class="link" href="https://www.fitmyblinds.co.uk/" target="_blank">
+              <i class="fas fa-link"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+    </div>
+   </div>
+  </div>
+</div>
+</section>
+
+
+
+<!-- get-in-touch-section -->
+<section class="get-in-touch" id="contact">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="common-heading about-heading contact_heading">
+           <h1>Get in <span>Touch</span></h1>
+           <span class="bg-text">Contact</span>
+  
+      </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 text-center ">
+    <div class="contact_box">
+      <div class="icon">
+        <i class="fas fa-map-marker-alt text-white"></i>
+      </div>
+      <div class="info_content text-white">
+        <h5>My Location:</h5>
+        <p>140301 Mohali, Chandigarh</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 text-center mt-5  mt-md-0 mt-lg-0">
+    <div class="contact_box">
+      <div class="icon">
+        <i class="fas fa-phone text-white"></i>
+      </div>
+      <div class="info_content text-white">
+        <h5>Phone Number:</h5>
+        <p>+910345675578</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-lg-4 text-center mt-5 mt-lg-0">
+    <div class="contact_box">
+      <div class="icon">
+        <i class="far fa-envelope text-white"></i>
+      
+      </div>
+      <div class="info_content text-white">
+        <h5>Email Address:</h5>
+        <p><a href="mailto:sanjubora84@gmail.com" class="text-white text-decoration-none">sanjubora84@gmail.com</a></p>
+      </div>
+
+    </div>
+  </div>  
+
+  <div class="col-lg-6 col-md-6">
+    <div class="contact-form">
+      <form action="/submit" method="POST">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="form-group mb-3">
+              <input type="text" id="ContactFormName" name="name" class="form-control" placeholder="Name*">
+              <span class="error_msg" id="name_error"></span>
+          </div>
+
+          </div>
+          <div class="col-lg-6 ">
+            <div class="form-group">
+              <input type="email" id="ContactFormEmail" name="email" class="form-control" placeholder="Email*">
+              <span class="error_msg" id="email_error"></span>
+          </div>
+          </div>
+        </div>
+<div class="row">
+<div class="col-lg-12 mt-4">
+  <div class="form-group">
+    <input type="text" id="ContactSubject" name="subject" class="form-control" placeholder="Subject*">
+    <span class="error_msg" id="subject_error"></span>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12 mt-4 ">
+  <div class="form-group">
+    <textarea id="ContactFormMessage" name="message" class="form-control" rows="7" placeholder="Message*"></textarea>
+    <span class="error_msg" id="message_error"></span>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+  <div class="download-btn">
+    <input type="submit" class="btn  contact-link text-white" name="submit"  value="Send Message"> 
+   </div>
+</div>
+</div>
+      </form>
+    </div>
+  </div>
+
+  <div class="col-lg-6 col-md-6">
+    <div class="card-p20">
+ <div class="map">
+  <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109741.03735611474!2d76.68112689626477!3d30.735055420302334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1692791315174!5m2!1sen!2sin" width="600" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+    </div>
+
+  </div>
+  </div>
+</div>
+
+</section>
+
+</div>
+<!-- main-section -->
+
+<section class="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p class="text-white mb-0">© 2023 Sanjay  -  All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+<div onclick="topFunction()" id="scrollTop" class="bottomToTop" >
+  <i class="fas fa-chevron-right"></i>
+</div>
+</section>
+
+
+<script src="./assets/js/wow.min.js"></script>
+<script>
+  wow = new WOW(
+   {
+  
+    }	) 
+    .init();
+  </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src ="./assets/js/index.js"></script>
+   
+  
+ 
+   <script>
+    // Get the button:
+let mybutton = document.getElementById("scrollTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+   </script>
+   
+   
+
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  $('.carousel').slick({
+  slidesToShow: 3,
+  dots:true,
+  centerMode: true,
+  responsive: [
+      {
+        breakpoint: 768, // define the breakpoint for mobile devices
+        settings: {
+          slidesToShow: 1, // set the number of slides to show on mobile
+          centerMode: false // disable center mode on mobile
+        }
+      },
+      // Add more breakpoints and settings as needed
+    ]
+  });
+});
+
+  </script>
+  
+  
+  <script>
+        const typedTextSpan = document.querySelector(".typed-text");
+       const cursorSpan = document.querySelector(".cursor");
+
+       const textArray = ["FRONTEND DEVELOPER"];
+       const typingDelay = 100;
+       const erasingDelay = 100;
+       const newTextDelay = 1000; // Delay between current and next text
+       let textArrayIndex = 0;
+       let charIndex = 0;
+
+       function type() {
+         if (charIndex < textArray[textArrayIndex].length) {
+           if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+           typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+           charIndex++;
+           setTimeout(type, typingDelay);
+         }
+         else {
+           cursorSpan.classList.remove("typing");
+           setTimeout(erase, newTextDelay);
+         }
+       }
+
+       function erase() {
+         if (charIndex > 0) {
+           if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+           typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+           charIndex--;
+           setTimeout(erase, erasingDelay);
+         }
+         else {
+           cursorSpan.classList.remove("typing");
+           textArrayIndex++;
+           if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+           setTimeout(type, typingDelay + 1100);
+         }
+       }
+
+       document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+         if (textArray.length) setTimeout(type, newTextDelay + 250);
+       });
+     </script>
+</body>
+</html>
