@@ -3,6 +3,8 @@ import bodyParser from 'body-parser';
 import nodemailer from 'nodemailer';
 import 'dotenv/config';
 const app = express();
+import ServerlessHttp from 'serverless-http';
+import router  from 'express';
 
 
 const port = process.env.PORT||3000;
@@ -46,6 +48,7 @@ transporter.sendMail(mailOptions, (error, info) => {
     }
 });
 })
-app.listen(port,()=>{
-    console.log(`listening on ${port}`);
-})
+
+ app.listen(port,()=>{
+     console.log(`listening on ${port}`);
+ })
